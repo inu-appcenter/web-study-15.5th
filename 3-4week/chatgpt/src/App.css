@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.sidebar {
+  background-color: #202123;
+  width: 220px;
+  color: #ececf1;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.new-chat-btn {
+  padding: 5px;
+  margin-right: 10px;
+  text-align: left;
+  background-color: #202123;
+  color: #ececf1;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  width: 160px;
+  height: 40px;
+}
+
+.new-chat-btn span {
+  padding-left: 6px;
+  background-color: #202123;
+  color: #ececf1;
+}
+
+.new-chat-btn:hover {
+  cursor: pointer;
+}
+
+.close-sidebar-btn {
+  padding: 5px;
+  background-color: #202123;
+  color: #ececf1;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.close-sidebar-btn:hover {
+  cursor: pointer;
+}
+
+.mid-side {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  flex-grow: 1;
+  overflow: auto;
+  z-index: 1;
+  position: relative;
+}
+
+.Chat {
+  padding: 10px;
+}
+
+.Chat ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 3px;
+}
+
+.day-before {
+  color: #8282a0;
+}
+
+.Chat li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 190px;
+  margin: 12px 0;
+}
+
+.chat-icon {
+  margin-right: 10px;
+}
+
+.popup {
+  background-color: black;
+  border-radius: 5px;
+  z-index: 2;
+  /* position: absolute; */
+}
+
+.setting,
+.logout {
+  display: flex;
+  align-items: center;
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.setting svg,
+.logout svg {
+  margin-right: 15px;
+}
+
+.setting:hover,
+.logout:hover {
+  background-color: #343540;
+  cursor: pointer;
+}
+
+.low-side {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+}
+
+.profil:hover {
+  border-radius: 8px;
+  background-color: #343540;
+  cursor: pointer;
+}
+
+.profil {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+
+.profil-img {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.user-name {
+  display: block;
+  margin-left: 15px;
+}
+
+.more-btn {
+  margin-left: 78px;
+}
