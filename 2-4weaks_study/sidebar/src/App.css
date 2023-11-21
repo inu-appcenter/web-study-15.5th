@@ -1,0 +1,128 @@
+
+.sidemenu{
+  padding: 8px;
+  position: fixed;
+  background-color: #202123;
+  color: #ecf0f1;
+  width: 245px;
+  height: 100%;
+}
+
+.top-sidebar{
+  
+  margin-bottom: 10px;
+  display: felx;
+  
+  
+}
+
+  .title {
+  font-size: 30px;
+  padding: 30px 10px;
+  
+  }
+
+.top-sidebar-btn{
+  margin-top: 20px;
+}
+
+.newchat-btn{
+  width:170px;
+  height: 45px;
+  background-color: transparent;
+  color: #ECECF1;
+  cursor: pointer;
+  border:1px solid #ECECF1;  
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.close-btn{
+  width: 45px;
+  height: 45px; 
+  background-color: transparent;
+  border:1px solid #ECECF1;
+  color: #ECECF1;
+  margin-left: 15px;
+  border-radius: 5px;
+  padding:0;
+}
+
+.chat-input-box{
+  background-color:transparent;
+}
+
+.textInputArea{
+  padding:8px;
+  width:100%;
+  border-radius:5px;
+  border-color:#d9d9e3;
+}
+
+
+.profile-menu{
+  border-top: 1px solid #8282a0;
+
+}
+
+.profile:hover{
+  background-color:#343540;
+  border-radius: 8px;
+}
+
+.profile-menu{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px; 
+  left: 10px; 
+  height: 55px; 
+  width: 220px;
+  padding: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+}
+.profile{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 15px; 
+  left: 15px; 
+  height: 40px;
+  width: 200px;
+  padding: 10px; /* 원하는 여백 설정 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.profile-menu span{
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  padding-left: 15px;
+
+
+}
+
+.profile-image{
+  width:33px;
+  height:33px;
+  border-radius: 0.125rem;
+  align: center;
+  padding:0;
+
+}
+
+.popup{
+  display: felx;
+
+  bottom:75px;
+}
+
+.menu-setting,
+.menu-logout{
+  height: 40px;
+}
