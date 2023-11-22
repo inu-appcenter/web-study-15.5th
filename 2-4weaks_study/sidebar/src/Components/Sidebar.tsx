@@ -33,7 +33,7 @@ const Sidebar = () => {
       </div>
 
       <div className='past-content'>
-      {/* <ChatList />*/}
+        {/*<ChatList />*/}
       </div>
         
       <div className='profile-menu' onClick={handleButtonClick}>
