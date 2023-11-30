@@ -1,3 +1,16 @@
+.ChatBox{
+  position: fixed;
+  bottom:0;
+  
+}
+
+
+.newchat-btn:hover{
+  background-color:#343540;
+}
+.close-btn:hover{
+  background-color:#343540;
+}
 
 .sidemenu{
   padding: 8px;
@@ -55,9 +68,10 @@
 
 .textInputArea{
   padding:8px;
-  width:100%;
+  width:870px;
   border-radius:5px;
   border-color:#d9d9e3;
+  position: felx;
 }
 
 
@@ -72,7 +86,7 @@
 }
 
 .profile-menu{
-  display: flex;
+  
   align-items: center;
   cursor: pointer;
   position: fixed;
@@ -116,10 +130,13 @@
 
 }
 
-.popup{
-  display: felx;
+.popup-wrapper {
+  position: relative
+}
 
-  bottom:75px;
+.popup{
+  position: absolute;
+  bottom: 0;
 }
 
 .menu-setting,
